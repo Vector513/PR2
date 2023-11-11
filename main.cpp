@@ -433,7 +433,7 @@ void replace(int i, int j)
 
 }
 
-void generator() {
+void generator() { // IDZ
 	const int N = 100;
 	int array[N] = {};
 	fillArray(array, N);
