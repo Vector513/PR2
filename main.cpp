@@ -263,7 +263,7 @@ void averageValue()
 		cout << index << " ";
 		bool isTheFirst = false, isTheLast = false;
 		count = 1; int step = 1;
-		while ((!isTheFirst || !isTheLast) && step <= 100) {
+		while ((!isTheFirst || !isTheLast) && step <= N) {
 			if ((index - step) < 0) {
 				isTheFirst = true;
 			}
